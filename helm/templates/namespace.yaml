@@ -1,0 +1,8 @@
+{{- if .Values.global.namespace }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ include "ns" . }}
+  labels:
+    {{- include "aws-webapp-manifests.selectorLabels" . | nindent 4 }}
+{{- end }}
