@@ -1,5 +1,5 @@
 global:
-  namespace: simple-webapp
+  namespace: simple-webapp # unneeded? use argo Auto-Create Namespace?
 
 replicaCount: 1
 
