@@ -2,19 +2,14 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: deploy-simple-webapp
+  namespace: argocd
 spec:
   destination:
-    namespace: ''
     server: https://kubernetes.default.svc
   source:
     path: helm
     repoURL: https://github.com/Q29vbA/aws-webapp-manifests.git
     targetRevision: HEAD
-  sources: []
   project: default
   syncPolicy:
-    automated:
-      prune: false
-      selfHeal: false
-      enabled: true
-    syncOptions: []
+    automated: {}
