@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: q29vba/aws-webapp-app
   pullPolicy: IfNotPresent
-  tag: "1.0"
+  tag: c41784471ca28cf698423699b1a869fa3c0891fa
 
 imagePullSecrets: []
 
