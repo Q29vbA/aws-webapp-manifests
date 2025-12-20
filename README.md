@@ -1,8 +1,8 @@
 # aws-webapp-manifests
 Part of my small aws base project. ([aws-webapp-app](https://github.com/Q29vbA/aws-webapp-app/), [aws-webapp-manifests](https://github.com/Q29vbA/aws-webapp-manifests/) (this repo), [aws-webapp-infra](https://github.com/Q29vbA/aws-webapp-infra/))
 
-This repo contains the helm chart for deploying the python flask app
+this repo contains the helm chart for deploying the python flask app
 
-ArgoCD is configured to watch this and apply changes
+argocd is configured to watch this and apply changes
 
-References the image built from the app repo of course
+references the image built from the app repo
