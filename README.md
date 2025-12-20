@@ -22,3 +22,4 @@ argocd app create aws-webapp \
 - break values into env-specific files
 - pin image tag source of truth to a release instead of sha
 - add resource limits, simple hpa
+- external secrets with aws secrets manager
